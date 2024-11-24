@@ -9,8 +9,20 @@ git add <resolved-file>    # Mark files as resolved
 git commit                 # Complete the merge
 git push origin main       # Push changes if you're ready
 
+<<<<<<< HEAD
+Your changes here...
+=======
+Changes from the remote branch here...
+>>>>>>> origin/main
+
 red
 violet
 green
+<<<<<<< HEAD
+Your changes here...
+=======
+Changes from the remote branch here...
+>>>>>>> origin/main
+
 violet
 
