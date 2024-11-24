@@ -1,18 +1,9 @@
-idk
-blue
-
-
-
 package view;
-
-
 import interface_adapter.matchresults.MatchResultsViewModel;
 import use_case.matchresults.MatchResultsUseCase;
 
-idkkkkk
 import javax.swing.*;
 import java.awt.*;
-red
 
 public class MatchResultsView extends JPanel {
    private final MatchResultsViewModel matchResultsViewModel;
