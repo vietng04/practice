@@ -1,10 +1,6 @@
 idk
 blue
-
-
-
 package view;
-
 
 import interface_adapter.matchresults.MatchResultsViewModel;
 import use_case.matchresults.MatchResultsUseCase;
@@ -49,12 +45,9 @@ public class MatchResultsView extends JPanel {
        else {
            data = new String[][] {{"No data available", "-", "-"}};
        }
-
-
        final JTable matchResultsTable = new JTable(data, columnNames);
        this.add(new JScrollPane(matchResultsTable), BorderLayout.CENTER);
    }
-
 
    public String getViewName() {
        return viewname;
