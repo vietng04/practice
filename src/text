@@ -4,6 +4,12 @@ blue
 violet
 blue
 yellow
+git status                # See which files have conflicts
+# Edit conflicted files manually
+git add <resolved-file>    # Mark files as resolved
+git commit                 # Complete the merge
+git push origin main       # Push changes if you're ready
+
 orange
 red
 light blue
